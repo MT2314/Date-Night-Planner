@@ -214,31 +214,31 @@ $(document).ready(function () {
                                 posterlink = localStorage.getItem("Poster:");
                                 $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", posterlink);
                                 if (uniquemovies[i].title == "Tenet") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/tenet.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/tenet.jpg");
                                 };
                                 if (uniquemovies[i].title == "Freaky") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/freaky.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/freaky.jpg");
                                 };
                                 if (uniquemovies[i].title == "Come Play") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/comeplay.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/comeplay.jpg");
                                 };
                                 if (uniquemovies[i].title == "Vanguard") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/vanguard.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/vanguard.jpg");
                                 };
                                 if (uniquemovies[i].title == "Let Him Go") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/lethimgo.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/lethimgo.jpg");
                                 };
                                 if (uniquemovies[i].title == "Guardians of the Galaxy") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/gotg.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/gotg.jpg");
                                 };
                                 if (uniquemovies[i].title == "The Climb") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/theclimb.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/theclimb.jpg");
                                 };
                                 if (uniquemovies[i].title == "Mank") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/Mank.png");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/Mank.png");
                                 };
                                 if (uniquemovies[i].title == "Buddy Games") {
-                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/BuddyGames.jpg");
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "assets/images/BuddyGames.jpg");
                                 };
                             };
 
