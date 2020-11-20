@@ -1,170 +1,56 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Reset CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/reset.css"/>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--CSS Materialize CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    
-    <title>Date Night</title>
-</head>
-<body>
-    <!--Parallax Container Picture 1 -->
-    <div class="parallax-container">
-        <div class="parallax">
-          <img src="assets/pexels-brett-sayles-2516541.jpg">
-        </div>
-    </div>
-    <!--MAIN CONTENT-->
-    <div class="section z-depth-5">
-        <div class="row container">
-            <!--Some "slogan" here-->
-            <h2 class="header">What's your date-night like?</h2>
-            <p class="grey-text text-darken-3 lighten-3">Let's begin with ...</p>
-            <br>
-            <ul class="collapsible">
-                <!--USER'S LOCATION-->
-                <li>
-                    <div class="collapsible-header #b71c1c red darken-4 white-text"><i class="material-icons">place</i>Where's your location?</div>
-                    <div class="collapsible-body">
-                        <div class="row">
-                            <div class="input-field col s8">
-                                <input value="XXXXX" type="text" class="validate" id = "userLocation">
-                                <label class="active" >ZIP Code</label>
-                            </div>
-                        </div>
-                        <button class="btn #ff9800 orange" type="submit" name="action" id = "locationBtn">Submit
-                            <i class="material-icons right">send</i>
-                        </button>
-                    </div>
-                </li>
-                <!--USER'S DATE-NIGHT CALENDAR DATE/TIME-->
-                <li>
-                    <div class="collapsible-header #b71c1c red darken-4 white-text"><i class="material-icons">event</i>When's your date?</div>
-                    <div class="collapsible-body">  
-                        <section class="row">
-                            <section class="col s8">
-                                <div><i class="material-icons date-icons">event_available</i>Select your date:</div>
-                                <input type="text" class="datepicker" id = "datePicker">
-                            <br>    
-                            <div><i class="material-icons date-icons">access_time</i>Select your time:</div>
-                                <input type="text" class="timepicker" id = "timePicker">
-                            
-                            <button class="btn #ff9800 orange" type="submit" name="action" id = "dateBtn">Submit
-                                <i class="material-icons right">send</i>
-                            </button>
-                            </section>
-                        </section>
-                    </div>
-                </li>
-                <!--USER'S RANGE OF DISTANCE WILLING TO TRAVEL-->
-                <li>
-                    <div class="collapsible-header #b71c1c red darken-4 white-text"><i class="material-icons">directions_walk</i>How far are you willing to travel?</div>
-                    <div class="collapsible-body">
-                        <section class="row">
-                            <section class="col s8">
-                                <p>In kilometers:</p>
-                                <form action="#">
-                                    <p class="range-field">
-                                        <input type="range" id="rangePicker" min="0" max="100" />
-                                    </p>
-                                </form>
-                                <form action="response.html">
-                                    <button class="btn #ff9800 orange" type="submit" name="Go to response page" id = rangeBtn>Submit
-                                        <i class="material-icons right">send</i>
-                                    </button>
-                                </form>
-                            </section>
-                        </section>
-                    </div>
-                </li>
-                 <!--USER'S CUISINE SELECTION-->
-                <!-- <li>
-                    <div class="collapsible-header #b71c1c red darken-4 white-text"><i class="material-icons">directions_walk</i>What cuisine would you like to have?</div>
-                    <div class="collapsible-body">
-                        <section class="row">
-                            <section class="col s8">
-                                <div class="card">
-                                    <div class="input-field col s12">
-                                        <select>
-                                          <option value="" disabled selected>Choose your cuisine!</option>
-                                          <option value="1">Option 1</option>
-                                          <option value="2">Option 2</option>
-                                          <option value="3">Option 3</option>
-                                        </select>
-                                    <label>Cuisine select:</label>
-                                    <br>
-                                    <p>Budget Options:</p>
-                                    <br>
-                                    <form action="#">
-                                        <p>
-                                          <label>
-                                            <input type="checkbox" class="filled-in"/>
-                                            <span>$</span>
-                                          </label>
-                                        </p>
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" class="filled-in"/>
-                                              <span>$$</span>
-                                            </label>
-                                        </p>
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" class="filled-in"/>
-                                              <span>$$$</span>
-                                            </label>
-                                        </p> 
-                                        <p>
-                                            <label>
-                                              <input type="checkbox" class="filled-in"/>
-                                              <span>$$$$</span>
-                                            </label>
-                                        </p>
-                                    </form>
-                                    <br>
-                                    <button class="btn #ff9800 orange" type="submit" name="action">Submit
-                                        <i class="material-icons right">send</i>
-                                    </button>
-                                </div>
-                            </section>
-                        </section>
-                        
-                    </div>
-                </li> -->
-            </ul>
-        </div>
-    </div>
-    <!--Parallax Container Picture 2-->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="assets/pexels-mentatdgt-1167192.jpg">
-        </div>
-    </div>
-    <!--Jquery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--JS Materialize CDN-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--Scripts to get components of page working from Materialize-->
-    <script>
-        $(document).ready(function(){
-            $('.parallax').parallax();
-            $('.collapsible').collapsible();
-            $('.datepicker').datepicker();
-            $('.timepicker').timepicker();
-            $('select').formSelect();
-            $(".dropdown-content.select-dropdown > li span").css("color", "#fb8c00");
-        });
+    <title>Date-Night Planner App</title>
+    <link rel="stylesheet" href="assets/login.css">
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js">
     </script>
-    <!--JS-->
-    <script src = "assets/script.js"></script>
-    <script src = "assets/confirmation.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <!-- The core Firebase JS SDK is always required -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <img src="https://i.imgur.com/44nrJL8.jpg" alt="Two people having a romantic dinner" style="width:100%;"> -->
+        <div class="testimonial-container">
+            <div class="bottom-left">
+                “Date-Night Planner is highly poetic, sharp, and engaging app. It’s easy to fall in love with its ingenuity.
+                This app is an ode to a deep appreciation of
+                dating and to the dance of the masculine and feminine as old as time.”
+                <strong>Dazrin T</strong>
+            </div>
+            <div class="top-left">Welcome to the Login Page</div>
+            <div class="top-right">
+                True art of preparing for the date-night is to understand the subtle dynamics of sub-communication
+                between two people – the complex melodiousness of attraction, excitement, nervousness, envy, judgment,
+                and desire in a social milieu… and how you can learn to seize it all in a spirit of fun and magic for
+                everyone in your circle. You will be able to smile in your advanced years, knowing that you’ve
+                experienced life at its fullest, that you have loved and been loved, and that you aren't having any
+                regret.
+            </div>
+            <div class="bottom-right">
+                I don’t even remember how I came across this app but it was truly a magical gift. I must have attracted
+                Date-Night Planner into my life. As a woman, I have to say, this is the best app I have ever used in my
+                entire life.
+                <strong>Carmen H</strong>
+            </div>
+        </div>
+        <!-- The surrounding HTML is left untouched by FirebaseUI.
+        Your app may use that space for branding, controls and other customizations.-->
+        <!--FIREBASE LOGIN-->
+        <div class="centered" id="firebaseui-auth-container"></div>
+    </div>
+    <script src="assets/fireBase.js"></script>
+    <script src="assets/login.js"></script>
 </body>
 </html>

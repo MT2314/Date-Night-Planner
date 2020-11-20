@@ -97,7 +97,7 @@ $(document).ready(function () {
 
         /////////////////////////////////////
         // Api 
-        var apiUrl = "http://data.tmsapi.com/v1.1/movies/showings?" + startDate + zip + radius + units + "&api_key=hs2hujn89q6qvq5bp8d9mnxg";
+        var apiUrl = "http://data.tmsapi.com/v1.1/movies/showings?" + startDate + zip + radius + units + "&api_key=f34q6vkgyfgvrjybjzngc87m";
 
 
         // Data Request
