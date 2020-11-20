@@ -228,6 +228,18 @@ $(document).ready(function () {
                                 if (uniquemovies[i].title == "Let Him Go") {
                                     $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/lethimgo.jpg");
                                 };
+                                if (uniquemovies[i].title == "Guardians of the Galaxy") {
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/gotg.jpg");
+                                };
+                                if (uniquemovies[i].title == "The Climb") {
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/theclimb.jpg");
+                                };
+                                if (uniquemovies[i].title == "Mank") {
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/Mank.png");
+                                };
+                                if (uniquemovies[i].title == "Buddy Games") {
+                                    $(".hello" + i + "> section.col.s4 > div.material-placeholder > img.materialboxed.z-depth-4.img").attr("src", "/assets/images/BuddyGames.jpg");
+                                };
                             };
 
                             // Save Chosen Movie to Local Storage
